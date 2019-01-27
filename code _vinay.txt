@@ -1,0 +1,10 @@
+python flow --imgdir sample_img/ --model cfg/tiny-yolo-voc.cfg --load bin/tiny-yolo-voc.weights --json
+
+python flow --imgdir sample_img/ --model cfg/yolov3-tiny.cfg --load bin/yolov3-tiny.weights --gpu 1.0
+
+python flow --model cfg/yolov2-voc.cfg --load bin/yolov2-voc.weights --demo VID_20180902_180655474.mp4
+
+
+python flow --imgdir sample_img/ --model cfg/tiny-yolo-voc.cfg --load bin/tiny-yolo-voc.weights --demo VID_20180902_180655474.mp4 --gpu 1.0
+
+
